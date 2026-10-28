@@ -1,4 +1,4 @@
-const characters = require("./characters");
+import characters from "./characters.js";
 
 async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;

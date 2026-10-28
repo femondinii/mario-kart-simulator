@@ -1,4 +1,4 @@
-const characters = {
+export const characters = {
     1: {
         name: "Mario",
         velocity: 4,
@@ -42,5 +42,3 @@ const characters = {
         points: 0,
     },
 };
-
-module.exports = characters;
