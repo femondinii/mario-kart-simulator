@@ -1,4 +1,5 @@
 import characters from "./characters.js";
+import promptSync from "prompt-sync";
 
 async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
@@ -142,7 +143,7 @@ async function declareWinner(character1, character2) {
 }
 
 (async function main() {
-    const prompt = require("prompt-sync")();
+    const prompt = promptSync();
 
     console.log("Escolha os personagens para a corrida:\n");
     console.log("1. Mario");

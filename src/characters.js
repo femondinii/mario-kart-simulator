@@ -1,4 +1,4 @@
-export const characters = {
+const characters = {
     1: {
         name: "Mario",
         velocity: 4,
@@ -42,3 +42,5 @@ export const characters = {
         points: 0,
     },
 };
+
+export default characters;
